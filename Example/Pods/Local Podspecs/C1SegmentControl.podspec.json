@@ -1,0 +1,22 @@
+{
+  "name": "C1SegmentControl",
+  "version": "0.1.0",
+  "summary": "A short description of C1SegmentControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sowcjhone00@sina.com/C1SegmentControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sowcjhone00@sina.com": "546799674@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/sowcjhone00@sina.com/C1SegmentControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "C1SegmentControl/Classes/**/*"
+}

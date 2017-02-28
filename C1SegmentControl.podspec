@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'C1SegmentControl'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of C1SegmentControl.'
+  s.version          = '1.0.0'
+  s.summary          = '一个测试项目'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                      仅仅用于测试
                        DESC
 
-  s.homepage         = 'https://github.com/sowcjhone00@sina.com/C1SegmentControl'
+  s.homepage         = 'https://github.com/Classical1956/C1SegmentConrtol'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sowcjhone00@sina.com' => '546799674@qq.com' }
-  s.source           = { :git => 'https://github.com/sowcjhone00@sina.com/C1SegmentControl.git', :tag => s.version.to_s }
+  s.author           = { 'Classical1956' => 'Classical1956' }
+  s.source           = { :git => 'https://github.com/Classical1956/C1SegmentConrtol.git', :tag => s.version}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.platform = :ios, '7.0'
 
   s.source_files = 'C1SegmentControl/Classes/**/*'
-  
+  s.requires_arc = true
   # s.resource_bundles = {
   #   'C1SegmentControl' => ['C1SegmentControl/Assets/*.png']
   # }

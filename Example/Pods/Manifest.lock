@@ -1,0 +1,16 @@
+PODS:
+  - C1SegmentControl (0.1.0)
+
+DEPENDENCIES:
+  - C1SegmentControl (from `../`)
+
+EXTERNAL SOURCES:
+  C1SegmentControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  C1SegmentControl: c37e2cd2967e18f9cb21b0d803e529e5a612960a
+
+PODFILE CHECKSUM: 69d63f88e81094543cda097164bd8d24db6d7956
+
+COCOAPODS: 1.1.1

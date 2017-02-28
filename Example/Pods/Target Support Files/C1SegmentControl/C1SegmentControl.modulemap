@@ -1,0 +1,6 @@
+framework module C1SegmentControl {
+  umbrella header "C1SegmentControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
